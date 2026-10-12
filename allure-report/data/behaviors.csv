@@ -1,0 +1,8 @@
+"BROKEN","EPIC","FAILED","FEATURE","PASSED","SKIPPED","STORY","UNKNOWN"
+"0","","1","Cart recommendations","0","0","Validate cart recommendations are relevant to cart items","0"
+"0","","0","Beauty category recommendations","1","0","Validate beauty category recommendations across products and cart","0"
+"0","","0","Ulta product search","3","0","Search for beauty products","0"
+"0","","0","Add product to bag","1","0","Add a moisturizer to the bag","0"
+"0","","0","Add product to bag","1","0","Add three products and verify the cart","0"
+"0","","0","Add product to bag","3","0","Recommendations are relevant to the viewed product","0"
+"0","","0","Ulta homepage","1","0","Validate homepage essentials","0"

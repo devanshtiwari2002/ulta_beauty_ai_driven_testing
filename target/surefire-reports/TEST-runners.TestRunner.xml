@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="runners.TestRunner" time="735.979" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="26"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Devansh Tiwari\Desktop\ulta-ai-automation\target\test-classes;C:\Users\Devansh Tiwari\Desktop\ulta-ai-automation\target\classes;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Devansh Tiwari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Devansh Tiwari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Devansh Tiwari\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Devansh Tiwari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Devansh Tiwari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="26"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\Devansh Tiwari\AppData\Local\Temp\surefire4983839309891606572\surefirebooter-20261012002302721_3.jar C:\Users\Devansh Tiwari\AppData\Local\Temp\surefire4983839309891606572 2026-10-12T00-23-02_535-jvmRun1 surefire-20261012002302721_1tmp surefire_0-20261012002302721_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Devansh Tiwari\Desktop\ulta-ai-automation\target\test-classes;C:\Users\Devansh Tiwari\Desktop\ulta-ai-automation\target\classes;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-java\4.27.0\selenium-java-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-api\4.27.0\selenium-api-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.27.0\selenium-chrome-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.27.0\selenium-chromium-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-json\4.27.0\selenium-json-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.27.0\selenium-manager-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.27.0\selenium-devtools-v129-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.27.0\selenium-devtools-v130-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v131\4.27.0\selenium-devtools-v131-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.27.0\selenium-devtools-v85-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.27.0\selenium-edge-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.27.0\selenium-firefox-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-http\4.27.0\selenium-http-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.27.0\selenium-ie-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.27.0\selenium-remote-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Devansh Tiwari\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\errorprone\error_prone_annotations\2.28.0\error_prone_annotations-2.28.0.jar;C:\Users\Devansh Tiwari\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-api\1.44.1\opentelemetry-api-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-context\1.44.1\opentelemetry-context-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.44.1\opentelemetry-exporter-logging-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.44.1\opentelemetry-sdk-common-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.44.1\opentelemetry-sdk-extension-autoconfigure-spi-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.44.1\opentelemetry-sdk-extension-autoconfigure-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.44.1-alpha\opentelemetry-api-incubator-1.44.1-alpha.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.44.1\opentelemetry-sdk-trace-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.44.1\opentelemetry-sdk-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.44.1\opentelemetry-sdk-metrics-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.44.1\opentelemetry-sdk-logs-1.44.1.jar;C:\Users\Devansh Tiwari\.m2\repository\net\bytebuddy\byte-buddy\1.15.10\byte-buddy-1.15.10.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-os\4.27.0\selenium-os-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.27.0\selenium-safari-driver-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\org\seleniumhq\selenium\selenium-support\4.27.0\selenium-support-4.27.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Devansh Tiwari\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Devansh Tiwari\.m2\repository\io\cucumber\cucumber-testng\7.20.1\cucumber-testng-7.20.1.jar;C:\Users\Devansh Tiwari\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Devansh Tiwari\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Devansh Tiwari\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Devansh Tiwari\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-testng\2.29.0\allure-testng-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-java-commons\2.29.0\allure-java-commons-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-model\2.29.0\allure-model-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-test-filter\2.29.0\allure-test-filter-2.29.0.jar;C:\Users\Devansh Tiwari\.m2\repository\io\qameta\allure\allure-cucumber7-jvm\2.29.0\allure-cucumber7-jvm-2.29.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Devansh Tiwari"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2026-04-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-26.0.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Devansh Tiwari\Desktop\ulta-ai-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Devansh Tiwari\AppData\Local\Temp\surefire4983839309891606572\surefirebooter-20261012002302721_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="26.0.1+8-34"/>
+    <property name="user.name" value="Devansh Tiwari"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Devansh Tiwari\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\DEVANS~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="26.0.1"/>
+    <property name="user.dir" value="C:\Users\Devansh Tiwari\Desktop\ulta-ai-automation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-26.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\Devansh Tiwari\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\Devansh Tiwari\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\Devansh Tiwari\Downloads\apache-jmeter-5.6.3_src\apache-jmeter-5.6.3\bin;C:\Users\Devansh Tiwari\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\Devansh Tiwari\Downloads\apache-maven-3.10.0-bin\apache-maven-3.10.0\bin;C:\Users\Devansh Tiwari\AppData\Local\Programs\Python\Python314\Scripts\;C:\Users\Devansh Tiwari\AppData\Local\Programs\Python\Python314\;C:\Users\Devansh Tiwari\AppData\Local\Programs\Python\Launcher\;C:\Users\Devansh Tiwari\AppData\Local\Microsoft\WindowsApps;C:\Users\Devansh Tiwari\Downloads\apache-jmeter-5.6.3_src\apache-jmeter-5.6.3\bin;C:\Users\Devansh Tiwari\Downloads\apache-jmeter-5.6.3\apache-jmeter-5.6.3\bin;C:\Users\Devansh Tiwari\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Devansh Tiwari\AppData\Local\Programs\Ollama;C:\Users\Devansh Tiwari\AppData\Roaming\npm;C:\Users\Devansh Tiwari\AppData\Local\Programs\Antigravity IDE\bin;C:\Users\Devansh Tiwari\.lmstudio\bin;c:\Users\Devansh Tiwari\.vscode\extensions\ms-python.debugpy-2026.6.0-win32-x64\bundled\scripts\noConfigScripts;c:\Users\Devansh Tiwari\.vscode\extensions\vscjava.vscode-java-debug-0.59.0\bundled\scripts\noConfigScripts;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="26.0.1+8-34"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="70.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validate beauty category recommendations across products and cart&quot;, &quot;Beauty category recommendations&quot;](1)" classname="runners.TestRunner" time="126.983">
+    <system-out><![CDATA[
+Scenario: Validate beauty category recommendations across products and cart         &amp#27;[90m# src/test/resources/features/beauty-category.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user searches for moisturizer and mascara and adds both to the cart&amp#27;[0m     &amp#27;[90m# stepdefinitions.BeautyCategorySteps.userSearchesForProductsAndAddsThemToCart()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mall recommendations from the product pages and cart page are collected&amp#27;[0m       &amp#27;[90m# stepdefinitions.BeautyCategorySteps.collectCartRecommendations()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mat least 20 percent of all collected recommendations must be beauty category&amp#27;[0m &amp#27;[90m# stepdefinitions.BeautyCategorySteps.collectedRecommendationsMeetBeautyCategoryThreshold()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Oct 12, 2026 12:23:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:23:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Oct 12, 2026 12:24:07 AM pages.ProductPage getRecommendationProductNames
+INFO: Recommendation carousel found=true, cards=12, names=[Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream, Toleriane Double Repair Face Moisturizer with Niacinamide, Ultra Repair Cream Intense Hydration Moisturizer, The Dewy Skin Cream Line-Plumping Moisturizer, PDRN Hyaluronic Acid 100 Moisturizing Cream, 345 Relief Cream, Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid, Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic Acid, Pro-Collagen Night Cream, Toleriane Double Repair Face Moisturizer UV SPF 30, Dramatically Different Moisturizing Lotion+ For Face, Moisture Whipped Ceramide Cream]
+Oct 12, 2026 12:24:07 AM stepdefinitions.BeautyCategorySteps userSearchesForProductsAndAddsThemToCart
+INFO: Product-page recommendations collected for 'moisturizer': 12
+Oct 12, 2026 12:24:53 AM pages.ProductPage getRecommendationProductNames
+INFO: Recommendation carousel found=true, cards=12, names=[BADgal BANG! Volumizing Mascara, GrandeLASH-MD Lash Enhancing Serum, High Impact Volumizing Mascara, Better Than Sex Volumizing & Lengthening Mascara, Tartelette Tubing Mascara, Better Than Sex Volumizing & Lengthening Waterproof Mascara, Tartelette XL Tubing Mascara, Lash Sensational Sky High Mascara, High Impact High-Fi Full Volume Mascara, Telescopic Original Washable Mascara, Restoring Lash & Brow Builder, Lash Princess False Lash Effect Mascara]
+Oct 12, 2026 12:24:53 AM stepdefinitions.BeautyCategorySteps userSearchesForProductsAndAddsThemToCart
+INFO: Product-page recommendations collected for 'mascara': 12
+Oct 12, 2026 12:25:11 AM stepdefinitions.BeautyCategorySteps collectCartRecommendations
+INFO: Cart products verified: [Good Molecules Lightweight Daily Moisturizer, Maybelline Lash Sensational Sky High Mascara, Maybelline Free Lifter Liner mini with select Maybelline purchase]; cart-page recommendations collected: 12
+Oct 12, 2026 12:25:11 AM stepdefinitions.BeautyCategorySteps collectedRecommendationsMeetBeautyCategoryThreshold
+INFO: AC7 counts: product-page recommendations=24, cart-page recommendations=12, total=36, beauty-category=23, percentage=63.9%
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate cart recommendations are relevant to cart items&quot;, &quot;Cart recommendations&quot;](2)" classname="runners.TestRunner" time="101.075">
+    <failure message="Source products: [Good Molecules Lightweight Daily Moisturizer, Maybelline Lash Sensational Sky High Mascara, Maybelline Free Lifter Liner mini with select Maybelline purchase]; combined keywords: [moisturizer, mascara]; total recommendations: 12; relevant recommendations: 0; relevance: 0.0% (required: 25.0%); relevant: []; non-relevant: [Peel Off Lip Liner STAY-N, Power Mist Hydrating Hand Sanitizer, Signature Lip Pencil, ChromaPlus 6-Pan Eyeshadow Palette, Glycolic Acid 7% Exfoliating and Brightening Daily Toner, Infallible 3-Second Setting Mist Spray, Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides, Micro Brow Pencil Eyebrow Pencil, Lifeproof 16-Hour Continuous Setting Mist, Hair Perfume Fragrance Spray, Toleriane Purifying Foaming Face Wash for Oily Skin, Power Grip Primer] expected [true] but found [false]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Source products: [Good Molecules Lightweight Daily Moisturizer, Maybelline Lash Sensational Sky High Mascara, Maybelline Free Lifter Liner mini with select Maybelline purchase]; combined keywords: [moisturizer, mascara]; total recommendations: 12; relevant recommendations: 0; relevance: 0.0% (required: 25.0%); relevant: []; non-relevant: [Peel Off Lip Liner STAY-N, Power Mist Hydrating Hand Sanitizer, Signature Lip Pencil, ChromaPlus 6-Pan Eyeshadow Palette, Glycolic Acid 7% Exfoliating and Brightening Daily Toner, Infallible 3-Second Setting Mist Spray, Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides, Micro Brow Pencil Eyebrow Pencil, Lifeproof 16-Hour Continuous Setting Mist, Hair Perfume Fragrance Spray, Toleriane Purifying Foaming Face Wash for Oily Skin, Power Grip Primer] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.CartSteps.recommendationsShouldBeRelevantToCartItems(CartSteps.java:57)
+	at ✽.at least 25 percent of recommendations should be relevant to the cart items(file:///C:/Users/Devansh%20Tiwari/Desktop/ulta-ai-automation/src/test/resources/features/cart.feature:6)
+]]></failure>
+    <system-out><![CDATA[
+Scenario: Validate cart recommendations are relevant to cart items                 &amp#27;[90m# src/test/resources/features/cart.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has moisturizer and mascara in the cart&amp#27;[0m                           &amp#27;[90m# stepdefinitions.CartSteps.userHasMoisturizerAndMascaraInCart()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user views cart recommendations&amp#27;[0m                                         &amp#27;[90m# stepdefinitions.CartSteps.userViewsCartRecommendations()&amp#27;[0m
+  &amp#27;[31mThen &amp#27;[0m&amp#27;[31mat least 25 percent of recommendations should be relevant to the cart items&amp#27;[0m &amp#27;[90m# stepdefinitions.CartSteps.recommendationsShouldBeRelevantToCartItems()&amp#27;[0m
+      &amp#27;[31mjava.lang.AssertionError: Source products: [Good Molecules Lightweight Daily Moisturizer, Maybelline Lash Sensational Sky High Mascara, Maybelline Free Lifter Liner mini with select Maybelline purchase]; combined keywords: [moisturizer, mascara]; total recommendations: 12; relevant recommendations: 0; relevance: 0.0% (required: 25.0%); relevant: []; non-relevant: [Peel Off Lip Liner STAY-N, Power Mist Hydrating Hand Sanitizer, Signature Lip Pencil, ChromaPlus 6-Pan Eyeshadow Palette, Glycolic Acid 7% Exfoliating and Brightening Daily Toner, Infallible 3-Second Setting Mist Spray, Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides, Micro Brow Pencil Eyebrow Pencil, Lifeproof 16-Hour Continuous Setting Mist, Hair Perfume Fragrance Spray, Toleriane Purifying Foaming Face Wash for Oily Skin, Power Grip Primer] expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at stepdefinitions.CartSteps.recommendationsShouldBeRelevantToCartItems(CartSteps.java:57)
+	at ✽.at least 25 percent of recommendations should be relevant to the cart items(file:///C:/Users/Devansh%20Tiwari/Desktop/ulta-ai-automation/src/test/resources/features/cart.feature:6)
+&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:25:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:25:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validate homepage essentials&quot;, &quot;Ulta homepage&quot;](3)" classname="runners.TestRunner" time="12.515">
+    <system-out><![CDATA[
+Scenario: Validate homepage essentials             &amp#27;[90m# src/test/resources/features/homepage.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                   &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe homepage should load successfully&amp#27;[0m       &amp#27;[90m# stepdefinitions.HomePageSteps.homepageShouldLoadSuccessfully()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe search bar should be visible and enabled&amp#27;[0m &amp#27;[90m# stepdefinitions.HomePageSteps.searchBarShouldBeVisibleAndEnabled()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe account icon should be accessible&amp#27;[0m        &amp#27;[90m# stepdefinitions.HomePageSteps.accountIconShouldBeAccessible()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:26:53 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:26:53 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add a moisturizer to the bag&quot;, &quot;Add product to bag&quot;](4)" classname="runners.TestRunner" time="65.933">
+    <system-out><![CDATA[
+Scenario: Add a moisturizer to the bag                  &amp#27;[90m# src/test/resources/features/product.feature:3&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                        &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"moisturizer"&amp#27;[0m                       &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI open the first product&amp#27;[0m                          &amp#27;[90m# stepdefinitions.ProductSteps.openFirstProduct()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI select an available product variant if required&amp#27;[0m &amp#27;[90m# stepdefinitions.ProductSteps.selectAvailableProductVariantIfRequired()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI add the product to the bag&amp#27;[0m                      &amp#27;[90m# stepdefinitions.ProductSteps.addProductToBag()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe product should be added successfully&amp#27;[0m         &amp#27;[90m# stepdefinitions.ProductSteps.productShouldBeAddedSuccessfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:27:06 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:27:06 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Add three products and verify the cart&quot;, &quot;Add product to bag&quot;](5)" classname="runners.TestRunner" time="144.221">
+    <system-out><![CDATA[
+Scenario: Add three products and verify the cart                 &amp#27;[90m# src/test/resources/features/product.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user has added 3 products to the bag&amp#27;[0m                 &amp#27;[90m# stepdefinitions.ProductSteps.userHasAddedThreeProductsToBag()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe user navigates to the cart&amp#27;[0m                            &amp#27;[90m# stepdefinitions.ProductSteps.userNavigatesToCart()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe cart displays at least 3 items&amp#27;[0m                        &amp#27;[90m# stepdefinitions.ProductSteps.cartDisplaysAtLeastThreeItems()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32meach added product is listed with the correct product name&amp#27;[0m &amp#27;[90m# stepdefinitions.ProductSteps.eachAddedProductIsListedWithCorrectName()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:28:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:28:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Recommendations are relevant to the viewed product&quot;, &quot;Add product to bag&quot;](6)" classname="runners.TestRunner" time="54.129">
+    <system-out><![CDATA[
+Scenario Outline: Recommendations are relevant to the viewed product             &amp#27;[90m# src/test/resources/features/product.feature:25&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"moisturizer"&amp#27;[0m                                                &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI open the first product&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ProductSteps.openFirstProduct()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mat least 30 percent of recommendations are relevant to the viewed product&amp#27;[0m &amp#27;[90m# stepdefinitions.ProductSteps.recommendationsAreRelevantToViewedProduct()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:30:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:30:36 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Oct 12, 2026 12:31:29 AM pages.ProductPage getRecommendationProductNames
+INFO: Recommendation carousel found=true, cards=12, names=[Ultra Repair Cream Intense Hydration Moisturizer, 345 Relief Cream, Cicaplast Balm B5 Soothing Therapeutic Multi Purpose Cream, The Dewy Skin Cream Line-Plumping Moisturizer, PDRN Hyaluronic Acid 100 Moisturizing Cream, Toleriane Double Repair Face Moisturizer with Niacinamide, Moisture Surge 100H Auto-Replenishing Hydrator Gel Moisturizer with Hyaluronic Acid, Vitamin Enriched Face Base+ Moisturizer & Primer with Vitamin C + Hyaluronic Acid, Pro-Collagen Night Cream, Toleriane Double Repair Face Moisturizer UV SPF 30, Dramatically Different Moisturizing Lotion+ For Face, Moisture Whipped Ceramide Cream]
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Recommendations are relevant to the viewed product&quot;, &quot;Add product to bag&quot;](7)" classname="runners.TestRunner" time="45.343">
+    <system-out><![CDATA[
+Scenario Outline: Recommendations are relevant to the viewed product             &amp#27;[90m# src/test/resources/features/product.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"mascara"&amp#27;[0m                                                    &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI open the first product&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ProductSteps.openFirstProduct()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mat least 30 percent of recommendations are relevant to the viewed product&amp#27;[0m &amp#27;[90m# stepdefinitions.ProductSteps.recommendationsAreRelevantToViewedProduct()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:31:30 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:31:30 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Oct 12, 2026 12:32:14 AM pages.ProductPage getRecommendationProductNames
+INFO: Recommendation carousel found=true, cards=12, names=[BADgal BANG! Volumizing Mascara, High Impact Volumizing Mascara, GrandeLASH-MD Lash Enhancing Serum, Better Than Sex Volumizing & Lengthening Mascara, Tartelette Tubing Mascara, Tartelette XL Tubing Mascara, Better Than Sex Volumizing & Lengthening Waterproof Mascara, Lash Sensational Sky High Mascara, High Impact High-Fi Full Volume Mascara, Telescopic Original Washable Mascara, Restoring Lash & Brow Builder, Lash Princess False Lash Effect Mascara]
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Recommendations are relevant to the viewed product&quot;, &quot;Add product to bag&quot;](8)" classname="runners.TestRunner" time="56.872">
+    <system-out><![CDATA[
+Scenario Outline: Recommendations are relevant to the viewed product             &amp#27;[90m# src/test/resources/features/product.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                                                 &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"vitamin c serum"&amp#27;[0m                                            &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI open the first product&amp#27;[0m                                                   &amp#27;[90m# stepdefinitions.ProductSteps.openFirstProduct()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mat least 30 percent of recommendations are relevant to the viewed product&amp#27;[0m &amp#27;[90m# stepdefinitions.ProductSteps.recommendationsAreRelevantToViewedProduct()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:32:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:32:15 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+Oct 12, 2026 12:33:11 AM pages.ProductPage getRecommendationProductNames
+INFO: Recommendation carousel found=true, cards=12, names=[DOUBLE SERUM Age-Defying Concentrate, Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides, Azelaic Acid 10 Hyaluron Redness Soothing Serum, Niacinamide 10 TXA 4 Serum for Brightening and Dark Spots, PDRN Pink Collagen Volume Multi Balm, Advanced Night Repair Multi-Recovery Complex Serum with Hyaluronic Acid & Peptides, Hyalu B5 Pure Hyaluronic Acid Face Serum, Pure 12% Vitamin C Serum for Wrinkle Reduction and Radiance, Discoloration Correcting Serum, Niacinamide 10% + Zinc 1% Serum for Oily Skin, Hyaluronic Acid Serum, Anti-Wrinkle Peptide Plump Line Filling Bounce Serum]
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for beauty products&quot;, &quot;Ulta product search&quot;](9)" classname="runners.TestRunner" time="48.617">
+    <system-out><![CDATA[
+Scenario Outline: Search for beauty products                &amp#27;[90m# src/test/resources/features/search.feature:11&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                            &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"moisturizer"&amp#27;[0m                           &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msearch results should be displayed&amp#27;[0m                   &amp#27;[90m# stepdefinitions.SearchSteps.searchResultsShouldBeDisplayed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mat least one product should be present in the results&amp#27;[0m &amp#27;[90m# stepdefinitions.SearchSteps.atLeastOneProductShouldBePresentInResults()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:33:12 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:33:12 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for beauty products&quot;, &quot;Ulta product search&quot;](10)" classname="runners.TestRunner" time="38.784">
+    <system-out><![CDATA[
+Scenario Outline: Search for beauty products                &amp#27;[90m# src/test/resources/features/search.feature:12&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                            &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"mascara"&amp#27;[0m                               &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msearch results should be displayed&amp#27;[0m                   &amp#27;[90m# stepdefinitions.SearchSteps.searchResultsShouldBeDisplayed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mat least one product should be present in the results&amp#27;[0m &amp#27;[90m# stepdefinitions.SearchSteps.atLeastOneProductShouldBePresentInResults()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:34:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:34:01 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search for beauty products&quot;, &quot;Ulta product search&quot;](11)" classname="runners.TestRunner" time="39.886">
+    <system-out><![CDATA[
+Scenario Outline: Search for beauty products                &amp#27;[90m# src/test/resources/features/search.feature:13&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI open the Ulta homepage&amp#27;[0m                            &amp#27;[90m# stepdefinitions.HomePageSteps.openUltaHomepage()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI search for &amp#27;[0m&amp#27;[32m&amp#27;[1m"vitamin c serum"&amp#27;[0m                       &amp#27;[90m# stepdefinitions.SearchSteps.searchFor(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32msearch results should be displayed&amp#27;[0m                   &amp#27;[90m# stepdefinitions.SearchSteps.searchResultsShouldBeDisplayed()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mat least one product should be present in the results&amp#27;[0m &amp#27;[90m# stepdefinitions.SearchSteps.atLeastOneProductShouldBePresentInResults()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Oct 12, 2026 12:34:40 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find CDP implementation matching 155
+Oct 12, 2026 12:34:40 AM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 155.0.8059.39. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.27.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+</testsuite>

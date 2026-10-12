@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-10-12T00:23:03 IST" name="Surefire suite" finished-at="2026-10-12T00:35:19 IST" duration-ms="735133">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-10-12T00:23:03 IST" name="Surefire test" finished-at="2026-10-12T00:35:19 IST" duration-ms="735133">
+      <class name="runners.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:23:03 IST" name="setUpClass" finished-at="2026-10-12T00:23:04 IST" duration-ms="692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3dfe520]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:23:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:25:11 IST" duration-ms="126980" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate beauty category recommendations across products and cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Beauty category recommendations"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:25:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:26:52 IST" duration-ms="101075" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate cart recommendations are relevant to cart items"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Cart recommendations"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Source products: [Good Molecules Lightweight Daily Moisturizer, Maybelline Lash Sensational Sky High Mascara, Maybelline Free Lifter Liner mini with select Maybelline purchase]; combined keywords: [moisturizer, mascara]; total recommendations: 12; relevant recommendations: 0; relevance: 0.0% (required: 25.0%); relevant: []; non-relevant: [Peel Off Lip Liner STAY-N, Power Mist Hydrating Hand Sanitizer, Signature Lip Pencil, ChromaPlus 6-Pan Eyeshadow Palette, Glycolic Acid 7% Exfoliating and Brightening Daily Toner, Infallible 3-Second Setting Mist Spray, Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides, Micro Brow Pencil Eyebrow Pencil, Lifeproof 16-Hour Continuous Setting Mist, Hair Perfume Fragrance Spray, Toleriane Purifying Foaming Face Wash for Oily Skin, Power Grip Primer] expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Source products: [Good Molecules Lightweight Daily Moisturizer, Maybelline Lash Sensational Sky High Mascara, Maybelline Free Lifter Liner mini with select Maybelline purchase]; combined keywords: [moisturizer, mascara]; total recommendations: 12; relevant recommendations: 0; relevance: 0.0% (required: 25.0%); relevant: []; non-relevant: [Peel Off Lip Liner STAY-N, Power Mist Hydrating Hand Sanitizer, Signature Lip Pencil, ChromaPlus 6-Pan Eyeshadow Palette, Glycolic Acid 7% Exfoliating and Brightening Daily Toner, Infallible 3-Second Setting Mist Spray, Hyaluronic Acid 2% + B5 Hydrating Serum with Ceramides, Micro Brow Pencil Eyebrow Pencil, Lifeproof 16-Hour Continuous Setting Mist, Hair Perfume Fragrance Spray, Toleriane Purifying Foaming Face Wash for Oily Skin, Power Grip Primer] expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at stepdefinitions.CartSteps.recommendationsShouldBeRelevantToCartItems(CartSteps.java:57)
+at ✽.at least 25 percent of recommendations should be relevant to the cart items(file:///C:/Users/Devansh%20Tiwari/Desktop/ulta-ai-automation/src/test/resources/features/cart.feature:6)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:26:52 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:27:05 IST" duration-ms="12516" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validate homepage essentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ulta homepage"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:27:05 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:28:11 IST" duration-ms="65933" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add a moisturizer to the bag"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product to bag"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:28:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:30:35 IST" duration-ms="144221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Add three products and verify the cart"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product to bag"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:30:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:31:29 IST" duration-ms="54129" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Recommendations are relevant to the viewed product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product to bag"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:31:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:32:14 IST" duration-ms="45343" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Recommendations are relevant to the viewed product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product to bag"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:32:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:33:11 IST" duration-ms="56872" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Recommendations are relevant to the viewed product"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Add product to bag"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:33:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:34:00 IST" duration-ms="48617" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for beauty products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ulta product search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:34:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:34:39 IST" duration-ms="38784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for beauty products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ulta product search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:34:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-10-12T00:35:19 IST" duration-ms="39885" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Search for beauty products"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Ulta product search"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runners.TestRunner@3059cbc]" started-at="2026-10-12T00:35:19 IST" name="tearDownClass" finished-at="2026-10-12T00:35:19 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runners.TestRunner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
